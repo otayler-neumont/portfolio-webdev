@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #2a2a2a;
+    color: #d9d9d9;
+    line-height: 1.6;
+}
+header {
+    background: #1b1b1b;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+blockquote {
+    color: #d9d9d9;
+}
+nav a {
+    color: #d9d9d9;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+nav a:hover {
+    color: #4bffa5;
+    transform: translateY(-2px);
+}
+main {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+h1 {
+    color: #ffffff;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+h2, h3, h4, h5, h6 {
+    color: #ffffff;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+}
+p {
+    margin-bottom: 20px;
+}
+section {
+    background: #1e1e1e;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 3px 3px 5px #111;
+}
+ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+}
+li {
+    padding: 5px 0;
+}
+span {
+    color: #4bffa5;
+}
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333333;
+    color: #d9d9d9;
+    text-decoration: none;
+    border: 1px solid #4bffa5;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #4bffa5;
+    color: #1b1b1b;
+}
+blockquote {
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+footer {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 100;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+img {
+    width: auto;
+    max-height: 30%;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #4bffa5;
+    filter: grayscale(100%);
+    border-radius: 4px;
+}
+table {
+    width: 100%;
+    margin: 20px 0;
+}
+th {
+    background-color: #333;
+    color: #ffffff;
+    text-align: left;
+    padding: 12px 15px;
+}
+td {
+    padding: 12px 15px;
+}
+tr:hover {
+    color: #4bffa5;
+}
+

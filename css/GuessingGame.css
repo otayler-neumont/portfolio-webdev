@@ -1,0 +1,66 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1f2023;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #a3a4a4;
+}
+
+h2 {
+    color: #e74c3c;
+}
+
+body {
+    color: #a3a4a4;
+}
+
+button {
+    background-color: #2b2d30;
+    color: #d5d8dc;
+    border: 1px solid #979898;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+button:hover {
+    background-color: #2a2a2a;
+    transform: translateY(-2px);
+}
+
+button:active {
+    background-color: #333333;
+    transform: translateY(0);
+}
+
+#resetGameButton:hover {
+    background-color: #ff6161;
+    color: #1f2023;
+}
+
+input {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 4px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #06bcee;
+    box-shadow: 0 0 5px 0 #8dd2e5;
+}
+
+
+
